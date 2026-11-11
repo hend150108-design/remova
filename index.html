@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remova — Hapus Background Gambar Otomatis &amp; Gratis</title>
+    
+    <!-- Metadata SEO & Media Sosial -->
+    <meta name="description" content="Hapus background gambar secara instan dengan teknologi pintar otomatis. Sederhana, cepat, bersih, dan 100% gratis." />
+    <meta name="theme-color" content="#2563EB" />
+    <meta property="og:title" content="Remova — Hapus Background Gambar Otomatis &amp; Gratis" />
+    <meta property="og:description" content="Hapus background gambar secara instan. Sederhana, cepat, dan gratis untuk semua orang." />
+    <meta property="og:type" content="website" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <!-- Favicon SVG Modern -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'><rect width='40' height='40' rx='10' fill='%232563EB'/><path d='M12 28L18 16L24 24L27 20L32 28H12Z' fill='white'/><circle cx='26' cy='15' r='3' fill='white'/></svg>" />
+  </head>
+  <body>
+    <!-- ==========================================================================
+         NAVIGATION BAR
+         ========================================================================== -->
+    <header class="navbar-wrapper" id="main-navbar">
+      <div class="container navbar-container">
+        <!-- Brand Logo -->
+        <a href="#hero" class="brand-logo" aria-label="Remova Beranda">
+          <svg class="brand-icon-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="40" height="40" rx="10" fill="#2563EB" />
+            <rect x="7" y="10" width="10" height="10" fill="#93C5FD" fill-opacity="0.35" />
+            <rect x="17" y="20" width="10" height="10" fill="#93C5FD" fill-opacity="0.35" />
+            <path d="M12 29L19 18L24 24L28 19L33 29H12Z" fill="#FFFFFF" />
+            <circle cx="27" cy="14" r="3" fill="#FFFFFF" />
+          </svg>
+          <span>Remova</span>
+        </a>
+
+        <!-- Desktop Navigation Menu -->
+        <nav class="nav-menu" id="nav-menu">
+          <a href="#hero" class="nav-link">Beranda</a>
+          <a href="#how-it-works" class="nav-link">Cara Kerja</a>
+          <a href="#features" class="nav-link">Fitur</a>
+          <a href="#upload-section" class="btn btn-primary nav-btn">
+            <span>Mulai Sekarang</span>
+            <i data-lucide="arrow-right"></i>
+          </a>
+        </nav>
+
+        <!-- Mobile Hamburger Toggle -->
+        <button class="nav-toggle-btn" id="nav-toggle" aria-label="Buka menu navigasi" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </header>
+
+    <main>
+      <!-- ==========================================================================
+           HERO SECTION
+           ========================================================================== -->
+      <section class="section hero-section" id="hero">
+        <div class="container hero-grid">
+          <!-- Kolom Kiri: Copywriting & Tombol -->
+          <div class="hero-content">
+            <div class="hero-badge">
+              <i data-lucide="sparkles"></i>
+              <span>Teknologi Cerdas • 100% Diproses di Browser Anda</span>
+            </div>
+
+            <h1 class="hero-title">
+              Hapus Background dalam <span class="hero-title-accent">Hitungan Detik.</span>
+            </h1>
+
+            <p class="hero-description">
+              Unggah foto Anda dan dapatkan hasil PNG transparan berkualitas tinggi secara instan, bersih, dan mudah.
+            </p>
+
+            <div class="hero-actions">
+              <a href="#upload-section" class="btn btn-primary btn-lg">
+                <i data-lucide="upload-cloud"></i>
+                <span>Hapus Background</span>
+              </a>
+              <a href="#how-it-works" class="btn btn-outline btn-lg">
+                <span>Cara Kerja</span>
+                <i data-lucide="chevron-down"></i>
+              </a>
+            </div>
+
+            <!-- 3 Keunggulan Utama -->
+            <div class="hero-features">
+              <div class="hero-feature-item">
+                <i data-lucide="check-circle-2" class="hero-feature-icon"></i>
+                <span>100% Gratis.</span>
+              </div>
+              <div class="hero-feature-item">
+                <i data-lucide="check-circle-2" class="hero-feature-icon"></i>
+                <span>Tanpa Watermark.</span>
+              </div>
+              <div class="hero-feature-item">
+                <i data-lucide="check-circle-2" class="hero-feature-icon"></i>
+                <span>Unduh Mudah.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Kolom Kanan: Showcase Demo Slider Interaktif -->
+          <div class="hero-visual-card">
+            <div class="hero-visual-header">
+              <span class="hero-pill-badge">
+                <i data-lucide="wand-2"></i>
+                <span>Demo Interaktif Langsung</span>
+              </span>
+              <span class="hero-hint">Geser slider untuk membandingkan</span>
+            </div>
+
+            <!-- Kontainer Slider Hero -->
+            <div class="comparison-container checkerboard-pattern" id="hero-slider-container">
+              <span class="slider-badge slider-badge-before">Sebelum</span>
+              <span class="slider-badge slider-badge-after">Sesudah</span>
+
+              <!-- Lapisan Sebelum (Foto Asli) -->
+              <div class="comparison-before-wrapper" id="hero-slider-before">
+                <img src="/assets/hero-before.svg" alt="Foto sebelum background dihapus" class="comparison-img" />
+              </div>
+
+              <!-- Lapisan Sesudah (Transparan) -->
+              <div class="comparison-after-wrapper" id="hero-slider-after">
+                <img src="/assets/hero-after.svg" alt="Foto sesudah background dihapus" class="comparison-img" />
+              </div>
+
+              <!-- Pembatas Slider -->
+              <div class="slider-divider" id="hero-slider-divider">
+                <div class="slider-handle-btn" aria-hidden="true">
+                  <i data-lucide="move-horizontal"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           AREA UPLOAD GAMBAR
+           ========================================================================== -->
+      <section class="section upload-section" id="upload-section">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pill">
+              <i data-lucide="sparkles"></i>
+              <span>Area Kerja Otomatis</span>
+            </span>
+            <h2 class="section-title">Unggah Foto Anda</h2>
+            <p class="section-subtitle">
+              Tarik &amp; letakkan foto potret, produk, atau objek apa pun untuk langsung menghapus latar belakangnya secara otomatis.
+            </p>
+          </div>
+
+          <div class="upload-box-wrapper">
+            <!-- Input File Tersembunyi -->
+            <input
+              type="file"
+              id="file-input"
+              accept=".jpg,.jpeg,.png,.webp,image/jpeg,image/png,image/webp"
+              style="display: none;"
+            />
+
+            <!-- STATE A: DROPZONE (Default) -->
+            <div class="dropzone-card" id="drop-zone" role="region" aria-label="Area unggah gambar">
+              <div class="dropzone-icon-circle">
+                <i data-lucide="upload-cloud"></i>
+              </div>
+
+              <h3 class="dropzone-title">Tarik &amp; letakkan foto Anda di sini</h3>
+              <p class="dropzone-subtitle">atau klik tombol di bawah untuk memilih file dari perangkat Anda</p>
+
+              <button type="button" class="btn btn-primary dropzone-cta-btn" id="choose-file-btn">
+                <i data-lucide="image-plus"></i>
+                <span>Pilih Gambar</span>
+              </button>
+
+              <div class="dropzone-formats-badge">
+                <span>Mendukung JPG, JPEG, PNG, WebP • Maksimal 15MB</span>
+              </div>
+
+              <!-- Sampel Cepat Uji Coba -->
+              <div class="sample-images-container">
+                <div class="sample-images-title">Atau uji coba langsung dengan sampel foto:</div>
+                <div class="sample-cards-grid">
+                  <div class="sample-card" data-sample-src="/assets/sample-sneaker.jpg" data-sample-name="sample-sneaker.jpg">
+                    <img src="/assets/sample-sneaker.jpg" alt="Produk Sepatu" class="sample-card-thumb" />
+                    <span class="sample-card-label">Sepatu</span>
+                  </div>
+                  <div class="sample-card" data-sample-src="/assets/sample-portrait.jpg" data-sample-name="sample-portrait.jpg">
+                    <img src="/assets/sample-portrait.jpg" alt="Foto Potret" class="sample-card-thumb" />
+                    <span class="sample-card-label">Potret</span>
+                  </div>
+                  <div class="sample-card" data-sample-src="/assets/sample-camera.jpg" data-sample-name="sample-camera.jpg">
+                    <img src="/assets/sample-camera.jpg" alt="Gadget Kamera" class="sample-card-thumb" />
+                    <span class="sample-card-label">Gadget</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- STATE B: KARTU STAGING (Foto Terpilih Siap Diproses) -->
+            <div class="staging-card" id="staging-card">
+              <div class="staging-preview-row">
+                <div class="staging-thumb-box">
+                  <img id="staging-thumb" src="" alt="Pratinjau foto terpilih" class="staging-thumb-img" />
+                </div>
+                <div class="staging-info-col">
+                  <span class="staging-status-badge">
+                    <i data-lucide="check-circle-2"></i>
+                    <span>Foto Siap Diproses</span>
+                  </span>
+                  <div class="staging-filename" id="staging-file-name">foto.jpg</div>
+                  <div class="staging-filesize" id="staging-file-size">1.2 MB</div>
+                </div>
+              </div>
+
+              <div class="staging-actions-row">
+                <div class="staging-actions-left">
+                  <button type="button" class="btn btn-secondary" id="btn-change-image">
+                    <i data-lucide="repeat"></i>
+                    <span>Ganti Gambar</span>
+                  </button>
+                  <button type="button" class="btn btn-danger-outline" id="btn-clear-staging">
+                    <i data-lucide="trash-2"></i>
+                    <span>Hapus</span>
+                  </button>
+                </div>
+                <button type="button" class="btn btn-primary btn-lg" id="btn-start-process">
+                  <i data-lucide="wand-2"></i>
+                  <span>Hapus Background Sekarang</span>
+                </button>
+              </div>
+            </div>
+
+            <!-- STATE C: KARTU PEMROSESAN (Loading) -->
+            <div class="processing-card" id="processing-card">
+              <div class="processing-spinner-box">
+                <div class="processing-spinner"></div>
+                <div class="processing-icon-center">
+                  <i data-lucide="cpu"></i>
+                </div>
+              </div>
+
+              <h3 class="processing-title">Sedang Menghapus Background...</h3>
+              <p class="processing-status-text" id="progress-status-text">
+                Menginisialisasi sistem pemrosesan...
+              </p>
+
+              <div class="progress-bar-container">
+                <div class="progress-bar-fill" id="progress-bar-fill"></div>
+              </div>
+              <div class="progress-percent-text" id="progress-percent-text">0%</div>
+
+              <div class="processing-note">
+                <i data-lucide="shield-check"></i>
+                <span>Jaminan Privasi: Foto diproses 100% secara lokal di browser Anda. Tidak ada data yang diunggah ke server mana pun.</span>
+              </div>
+            </div>
+
+            <!-- STATE D: KARTU HASIL (Result Editor) -->
+            <div class="result-card" id="result-card">
+              <div class="result-header-row">
+                <div class="result-badge">
+                  <i data-lucide="check"></i>
+                  <span>Background Berhasil Dihapus</span>
+                </div>
+                <div class="result-meta-info" id="result-meta-info">
+                  PNG • Transparan
+                </div>
+              </div>
+
+              <!-- Kanvas Slider Hasil -->
+              <div class="result-canvas-wrapper checkerboard-pattern" id="result-canvas-wrapper">
+                <div class="comparison-container checkerboard-pattern" id="result-slider-container">
+                  <span class="slider-badge slider-badge-before" id="result-badge-before">Foto Asli</span>
+                  <span class="slider-badge slider-badge-after" id="result-badge-after">Hasil Transparan</span>
+
+                  <!-- Lapisan Sebelum: Foto Asli -->
+                  <div class="comparison-before-wrapper" id="result-slider-before-wrapper">
+                    <img id="result-before-img" src="" alt="Foto Asli" class="comparison-img" />
+                  </div>
+
+                  <!-- Lapisan Sesudah: Hasil Transparan -->
+                  <div class="comparison-after-wrapper" id="result-slider-after-wrapper">
+                    <img id="result-after-img" src="" alt="Hasil Transparan" class="comparison-img" />
+                  </div>
+
+                  <!-- Handle Pembatas Slider -->
+                  <div class="slider-divider" id="result-slider-divider">
+                    <div class="slider-handle-btn" aria-hidden="true">
+                      <i data-lucide="move-horizontal"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Toolbar Pengaturan Pratinjau -->
+              <div class="result-toolbar">
+                <!-- Pilihan Mode Tampilan -->
+                <div class="toolbar-group">
+                  <span class="toolbar-label">Tampilan:</span>
+                  <div class="btn-group">
+                    <button type="button" class="btn-view-mode is-active" data-mode="split">
+                      Slider Perbandingan
+                    </button>
+                    <button type="button" class="btn-view-mode" data-mode="result">
+                      Hasil Transparan Saja
+                    </button>
+                    <button type="button" class="btn-view-mode" data-mode="original">
+                      Foto Asli Saja
+                    </button>
+                  </div>
+                </div>
+
+                <!-- Pilihan Latar Belakang Pratinjau (Transparan, Putih, Hitam) -->
+                <div class="toolbar-group">
+                  <span class="toolbar-label">Latar Pratinjau:</span>
+                  <div class="bg-options-list" role="radiogroup" aria-label="Pilihan Latar Pratinjau">
+                    <button type="button" class="bg-option-btn bg-btn-transparent is-active" data-bg="transparent" title="Latar Transparan" aria-label="Latar Transparan">
+                      <span class="bg-checker-dot"></span>
+                    </button>
+                    <button type="button" class="bg-option-btn bg-btn-white" data-bg="white" title="Latar Putih" aria-label="Latar Putih"></button>
+                    <button type="button" class="bg-option-btn bg-btn-black" data-bg="black" title="Latar Hitam" aria-label="Latar Hitam"></button>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Tombol Aksi Akhir -->
+              <div class="result-actions-row">
+                <button type="button" class="btn btn-secondary" id="btn-reset-all">
+                  <i data-lucide="refresh-cw"></i>
+                  <span>Hapus Foto Lain</span>
+                </button>
+
+                <button type="button" class="btn btn-primary btn-lg" id="btn-download-png">
+                  <i data-lucide="download"></i>
+                  <span>Unduh PNG Transparan</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           SECTION CARA KERJA (HOW IT WORKS)
+           ========================================================================== -->
+      <section class="section how-it-works-section" id="how-it-works">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pill">
+              <i data-lucide="zap"></i>
+              <span>Alur Praktis</span>
+            </span>
+            <h2 class="section-title">Cara Kerja</h2>
+            <p class="section-subtitle">
+              Tiga langkah mudah untuk menghapus background dan mengunduh gambar PNG transparan berkualitas tinggi.
+            </p>
+          </div>
+
+          <div class="steps-grid">
+            <!-- Langkah 1 -->
+            <div class="step-card">
+              <span class="step-badge-number">LANGKAH 01</span>
+              <div class="step-icon-box">
+                <i data-lucide="upload-cloud"></i>
+              </div>
+              <h3 class="step-title">01 — Unggah Gambar</h3>
+              <p class="step-description">
+                Pilih atau tarik foto Anda ke area unggah. Mendukung format JPG, PNG, dan WebP.
+              </p>
+            </div>
+
+            <!-- Langkah 2 -->
+            <div class="step-card">
+              <span class="step-badge-number">LANGKAH 02</span>
+              <div class="step-icon-box">
+                <i data-lucide="cpu"></i>
+              </div>
+              <h3 class="step-title">02 — Penghapusan Otomatis</h3>
+              <p class="step-description">
+                Sistem cerdas mendeteksi subjek foto dan menghapus latar belakang secara bersih dalam hitungan detik.
+              </p>
+            </div>
+
+            <!-- Langkah 3 -->
+            <div class="step-card">
+              <span class="step-badge-number">LANGKAH 03</span>
+              <div class="step-icon-box">
+                <i data-lucide="download"></i>
+              </div>
+              <h3 class="step-title">03 — Unduh Hasil</h3>
+              <p class="step-description">
+                Simpan gambar potongan transparan beresolusi tinggi dalam format PNG dengan satu klik.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ==========================================================================
+           SECTION FITUR UTAMA (FEATURES)
+           ========================================================================== -->
+      <section class="section features-section" id="features">
+        <div class="container">
+          <div class="section-header">
+            <span class="section-pill">
+              <i data-lucide="layers"></i>
+              <span>Keunggulan Utama</span>
+            </span>
+            <h2 class="section-title">Semua yang Anda Butuhkan untuk Menghapus Background</h2>
+            <p class="section-subtitle">
+              Fokus, cepat, dan ditenagai teknologi pintar langsung di browser untuk privasi dan efisiensi terbaik.
+            </p>
+          </div>
+
+          <div class="features-grid">
+            <!-- Fitur 1 -->
+            <div class="feature-card">
+              <div class="feature-icon-circle">
+                <i data-lucide="sparkles"></i>
+              </div>
+              <h3 class="feature-title">Penghapusan Background Otomatis</h3>
+              <p class="feature-description">
+                Memisahkan subjek foto (orang, produk, atau objek) secara otomatis dengan presisi tinggi langsung di browser.
+              </p>
+            </div>
+
+            <!-- Fitur 2 -->
+            <div class="feature-card">
+              <div class="feature-icon-circle">
+                <i data-lucide="award"></i>
+              </div>
+              <h3 class="feature-title">Hasil Kualitas Tinggi</h3>
+              <p class="feature-description">
+                Mempertahankan ketajaman tepi, detail halus, dan resolusi asli foto tanpa penurunan kualitas atau kompresi berlebih.
+              </p>
+            </div>
+
+            <!-- Fitur 3 -->
+            <div class="feature-card">
+              <div class="feature-icon-circle">
+                <i data-lucide="gift"></i>
+              </div>
+              <h3 class="feature-title">100% Gratis Digunakan</h3>
+              <p class="feature-description">
+                Bebas digunakan tanpa biaya langganan, tanpa perlu kartu kredit, dan tanpa memerlukan API key berbayar.
+              </p>
+            </div>
+
+            <!-- Fitur 4 -->
+            <div class="feature-card">
+              <div class="feature-icon-circle">
+                <i data-lucide="download-cloud"></i>
+              </div>
+              <h3 class="feature-title">Unduh PNG Transparan</h3>
+              <p class="feature-description">
+                Unduh hasil potongan sebagai file PNG dengan transparansi alpha murni yang siap digunakan untuk berbagai kebutuhan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ==========================================================================
+         FOOTER
+         ========================================================================== -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Kolom 1: Brand & Tagline -->
+          <div class="footer-brand-col">
+            <a href="#hero" class="brand-logo" aria-label="Remova Beranda">
+              <svg class="brand-icon-svg" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect width="40" height="40" rx="10" fill="#2563EB" />
+                <rect x="7" y="10" width="10" height="10" fill="#93C5FD" fill-opacity="0.35" />
+                <rect x="17" y="20" width="10" height="10" fill="#93C5FD" fill-opacity="0.35" />
+                <path d="M12 29L19 18L24 24L28 19L33 29H12Z" fill="#FFFFFF" />
+                <circle cx="27" cy="14" r="3" fill="#FFFFFF" />
+              </svg>
+              <span>Remova</span>
+            </a>
+            <div class="footer-tagline">
+              Remove Background. Reveal Creativity.
+            </div>
+            <p class="footer-desc">
+              Hapus background gambar secara instan dan otomatis. Mudah, canggih, dan 100% gratis untuk semua orang.
+            </p>
+          </div>
+
+          <!-- Kolom 2: Tautan Navigasi -->
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Navigasi</h4>
+            <ul class="footer-links-list">
+              <li><a href="#hero" class="footer-link">Beranda</a></li>
+              <li><a href="#how-it-works" class="footer-link">Cara Kerja</a></li>
+              <li><a href="#features" class="footer-link">Fitur</a></li>
+              <li><a href="#upload-section" class="footer-link">Mulai Sekarang</a></li>
+            </ul>
+          </div>
+
+          <!-- Kolom 3: Tautan Fitur -->
+          <div class="footer-links-col">
+            <h4 class="footer-col-title">Fitur</h4>
+            <ul class="footer-links-list">
+              <li><a href="#features" class="footer-link">Penghapusan Background Otomatis</a></li>
+              <li><a href="#features" class="footer-link">Hasil Kualitas Tinggi</a></li>
+              <li><a href="#features" class="footer-link">100% Gratis Digunakan</a></li>
+              <li><a href="#features" class="footer-link">Unduh PNG Transparan</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom-row">
+          <div>&copy; 2026 Remova. Hak cipta dilindungi undang-undang.</div>
+          <div>Pemrosesan Cepat, Aman, dan Privat di Browser</div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Kontainer Notifikasi Toast -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+    <!-- Entry Point Skrip Utama -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
